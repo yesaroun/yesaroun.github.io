@@ -80,8 +80,9 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
-
-theme: jekyll-theme-hydejack
+# 로컬에서 실행할때 아래 코드 주석을 풀어주세요!
+#theme: jekyll-theme-hydejack
+# GitHub Page에서 실행할때는 아래 코드 주석을 풀어주세요!
 remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 
