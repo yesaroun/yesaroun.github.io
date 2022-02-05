@@ -56,8 +56,6 @@ menu:
     url:               /python/
   - title:             Git
     url:               /git/
-  - title:             About
-    url:               /about/
   - title:             Sub
     url:               /sub/
     submenu:
@@ -65,6 +63,8 @@ menu:
         url:           /test1/
       - title:         Test2
         url:           /test2/
+  - title:             About
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
