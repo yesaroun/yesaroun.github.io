@@ -50,12 +50,21 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Java
+    url:               /java/
+  - title:             Python
+    url:               /python/
+  - title:             Git
+    url:               /git/
   - title:             About
     url:               /about/
+  - title:             Sub
+    url:               /sub/
+    submenu:
+      - title:         Test1
+        url:           /test1/
+      - title:         Test2
+        url:           /test2/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -81,9 +90,9 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 # 로컬에서 실행할때 아래 코드 주석을 풀어주세요!
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # GitHub Page에서 실행할때는 아래 코드 주석을 풀어주세요!
-remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+#remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 
 # Customizaton
